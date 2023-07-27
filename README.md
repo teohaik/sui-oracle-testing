@@ -1,4 +1,4 @@
-# POC TEMPLATE - NextJS version
+# Sui Oracle invocation examples
 
 This repo is a template POC, that will be used for initializing future POCs easier.
 
