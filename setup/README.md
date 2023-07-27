@@ -2,11 +2,31 @@
 
 ## Description
 
-A Typescript project, with ready-to-use:
+A Typescript project that contains examples of interactions with Oracles, using the Typescript SDK.
 
-- environment variable (.env) file reading
-- Sui SDK integration
-- publish shell script
+```
+
+setup
+  |-- publish.sh
+  |-- src
+    |-- config.ts
+    |-- drand-test.ts
+    |-- stork-oracle.test.ts
+    |-- setup.ts
+    |-- socket-server
+      |-- socket-client.mjs
+      |-- socket-server.mjs
+
+```
+
+
+`drand-test` file contains the example usage of the drand oracle.
+
+`stork-oracle.test` file contains the example usage of the stork oracle.
+
+`socket-server` folder contains a simple example  of a web socket server / client interaction. 
+To use it, first Run the `socket-server.mjs` file and then the `socket-client.mjs` file.
+
 
 ## Environment variables
 

@@ -13,7 +13,8 @@
     "@mysten/sui.js": "^0.34.1",
     "dotenv": "^16.0.3",
     "drand-client": "^1.2.1",
-    "typescript": "^5.0.4"
+    "typescript": "^5.0.4",
+    "ws": "^8.13.0"
   },
   "devDependencies": {
     "env-cmd": "^10.1.0",
