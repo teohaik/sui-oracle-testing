@@ -1,0 +1,59 @@
+{
+  "oracle_prices": {
+    "SUIUSD": {
+      "price": "643268422115000000",
+      "signed_prices": {
+        "0xcc85afe4ca87f9628370c432c447e569a01dc96d160015c8039959db8521c4": {
+          "external_asset_id": "0x5355495553440000000000000000000053746f726b",
+          "price": "643263347992000000",
+          "timestamped_signature": {
+            "signature": {
+              "r": "0x51a 121052fd0ac4d70504a39ef12954d8074d9e3cb9e3aa1aad56e7712e7885",
+              "s": "0x33a45afbd1fc96e86e4221b5b59e91c3d2522f4ce111bb430a325dd28564fb"
+            },
+            "timestamp": "1690465586",
+            "msg_hash": "0x14971f401099f930ecd8a7b93a633ec54f74f0cc0c2e4b113c05343167908b4"
+          }
+        },
+        "0x41dbe627aeab66504b837b3abd88ae2f58ba6d98ee7bbd7f226c4684d9e 6225": {
+          "external_asset_id": "0x535549555344000000000000000000005374437277",
+          "price": "643256387044000000",
+          "timestamped_signature": {
+            "signature": {
+              "r": "0x2ac0833de0855f8e5ebf868edb56e9892a58521d575ecc9da64fd05d290c234",
+              "s": "0x3f0928d5d97f849acbbc125d3d8c1aeadacc30b16c59a7b618ce2fda99e9028"
+            },
+            "timestamp": "1690465586",
+            "msg_hash": "0x358d376b593602c818232617e3d2662f588eac165e73d0595ba7e27056f421"
+          }
+        },
+        "0x2af704df5467285c5d1bd7c08ee33c49057fb2a05ecdc4f949293190f28ce7e": {
+          "external_asset_id": "0x535549555344000000000000000000004465787472",
+          "price": "643306364249000000",
+          "timestamped_signature": {
+            "signature": {
+              "r ": "0xe2d41369b05ccc0fcde77d748b308b9155c443fec1810865b1e0de7a86cf01",
+              "s": "0x794e6d7fac9b9d5c54cf91bbf34efe36d7464b84fba554e5a913a3925376dce"
+            },
+            "timestamp": "1690465589",
+            "msg_hash": "0x68b319eaffafc5bd082c7eff9838947a91d36c1ffcb7c3cbfc695b616dd95c4"
+          }
+        },
+        "0x63f0f8507cc674ff668985a1ea854d3b73835a8181bfbb4564 ae422bf68a2c0": {
+          "external_asset_id": "0x5355495553440000000000000000000053744b6169",
+          "price": "643273496238000000",
+          "timestamped_signature": {
+            "signature": {
+              "r": "0x7c87ec50b4f1acdddff0e9946eff6ebc0dde25b872a8d28f736bf8d8ec4d592",
+              "s": "0x186bf55a333eb02e8aa1f4fa9c487a52f928bdbb70869281a1aacd551dfc4ed"
+            },
+            "timestamp": "1690465589",
+            "msg_hash": "0x76171b51a41d35ce8a5b0c260373f4a8242a043301dc0333b7885745467e4a3"
+          }
+        }
+      }
+    }
+  },
+  "timestamp": "1690465589",
+  "type": "ORACLE_PRICES_TICK"
+}
