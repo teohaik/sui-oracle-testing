@@ -55,8 +55,7 @@ newObjs=$(echo "$publish_res" | jq -r '.objectChanges[] | select(.type == "creat
 
 ADMIN_CAP=$(echo "$newObjs" | jq -r 'select (.objectType | contains("stork_price_demo::AdminCap")).objectId')
 
-PRICE_LIST_VEC_MAP=$(echo "$newObjs" | jq -r 'select (.objectType | contains("stork_price_demo::PriceListVecMap")).objectId')
-PRICE_LIST_OBJECT_TABLE=$(echo "$newObjs" | jq -r 'select (.objectType | contains("stork_price_demo::PriceListObjectTable")).objectId')
+PRICE_LIST_STORE=$(echo "$newObjs" | jq -r 'select (.objectType | contains("stork_price_demo::PriceListStore")).objectId')
 
 
 suffix=""
@@ -70,8 +69,7 @@ BACKEND_API=$BACKEND_API
 PACKAGE_ADDRESS=$PACKAGE_ID
 ADMIN_ADDRESS=$ADMIN_ADDRESS
 ADMIN_CAP=$ADMIN_CAP
-PRICE_LIST_VEC_MAP=$PRICE_LIST_VEC_MAP
-PRICE_LIST_OBJECT_TABLE=$PRICE_LIST_OBJECT_TABLE
+PRICE_LIST_STORE=$PRICE_LIST_STORE
 API_ENV
 
 cat >../app/.env$suffix<<-VITE_API_ENV

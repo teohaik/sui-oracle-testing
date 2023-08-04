@@ -70,7 +70,7 @@ module stork_oracle_verifier::stork_price_demo{
         transfer::transfer(AdminCap{id: object::new(ctx)}, tx_context::sender(ctx));
     }
 
-    public fun update_price_object_table(_: &AdminCap,
+    public fun update_price(_: &AdminCap,
                                          priceListOT : &mut PriceListStore,
                                          assetPairName: String,
                                          new_price: u64,

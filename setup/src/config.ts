@@ -8,8 +8,7 @@ export const ADMIN_SECRET_KEY = process.env.ADMIN_SECRET_KEY!;
 export const PACKAGE_ADDRESS = process.env.PACKAGE_ADDRESS!;
 
 export const ADMIN_CAP = process.env.ADMIN_CAP!;
-export const PRICE_LIST_OBJECT_TABLE = process.env.PRICE_LIST_OBJECT_TABLE!;
-export const PRICE_LIST_VEC_MAP = process.env.PRICE_LIST_VEC_MAP!;
+export const PRICE_LIST_STORE = process.env.PRICE_LIST_STORE!;
 
 // console.log everything in the process.env object
 const keys = Object.keys(process.env);
