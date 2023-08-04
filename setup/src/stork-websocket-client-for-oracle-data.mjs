@@ -12,6 +12,7 @@ const ws = new WebSocket('wss://api-jp.stork.network/prices-v3', {
 
 
 ws.on('open', function open() {
+    ws.send('{"action":"set_signature", "type":"EVM"}');
     ws.send('{"action":"subscribe","assets":["SUIUSD"]}');
 });
 
